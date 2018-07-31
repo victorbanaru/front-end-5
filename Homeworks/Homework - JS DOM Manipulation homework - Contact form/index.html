@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Homework - Contact Form - JS DOM Manipulation</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Form</h1>
+    <p id="banner">&#9989 Thank you for contacting us, </p>
+<!--     <form action=""> As fi incercat validarea in JS utilizand "form" in HTML, dar mai am de exersat 
+de aceea veti gasi mai multe atribute (decat ar fi fost cazul probabil) in HTML pentru elementele necesare -->
+      <label for="fname"></label>
+      <input type="text" id="fname" name="firstname" placeholder="First Name">
+      <br>
+      <br>
+
+      <label for="lname"></label>
+      <input type="text" id="lname" name="lastname" placeholder="Last Name">
+      <img src="assets/ContactUs.jpg" alt="Contact Us">
+      <br>
+      <br>
+      
+      <label for="gender">Gender</label><br><br>
+      
+      <input type="radio" name="gender" value="male">M<br>
+      <input type="radio" name="gender" value="female">F<br>
+
+      <label for="subject"></label>
+      <textarea id="sbj" name="subject" placeholder="Your message here..." style="height:150px"></textarea>
+      
+      <button id="btn-submit">Submit</button>
+<!--     </form> -->
+</div>
+</body>
+</html>
